@@ -1,0 +1,10 @@
+addictapi:
+  image: irasnyd/addictapi:latest
+  ports:
+    - "3000:3000"
+  environment:
+    - "ADDICT_URL=ldap://ldap.example.com"
+    - "ADDICT_USER=admin@example.com"
+    - "ADDICT_PASS=supersecret"
+  mem_limit: 512m
+  restart: always
