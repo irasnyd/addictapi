@@ -1,6 +1,10 @@
 Introduction
 ============
 
+**OBSOLETE**: The upstream project is dead (removed from Github). It still exists
+on the NPM package repository, but appears to be unmaintained. This project is
+archived and remains for historical purposes only.
+
 This is a containerized version of the [Addict Active Directory REST API](https://github.com/dthree/addict/).
 
 Environment Variables
